@@ -1,1 +1,32 @@
-/* pages/history/history.wxss */
+.history_container{
+}
+
+.history_container .history{
+  margin: 30rpx;
+  height: 200rpx;
+  /* background: pink; */
+  border:solid 1.5px #298DF8;
+  border-radius: 5px;
+  box-shadow: 0 0 2rpx 2rpx #ccc;
+}
+
+.history_container .history>view:nth-child(1){
+  margin: 10px;
+  font-size: 12px;
+}
+
+.history_container .history .score_assess{
+  display: flex;
+  margin: 15px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_container .history .score_assess .score{
+  flex: 1
+}
+
+.history_container .history .score_assess .assess{
+  flex: 1
+}

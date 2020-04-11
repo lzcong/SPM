@@ -1,2 +1,16 @@
-<!--pages/history/history.wxml-->
-<text>pages/history/history.wxml</text>
+<scroll-view class="history_container">
+  <view class="history">
+    <view>2020/4/10 21:08</view>
+    <view class="score_assess">
+       <view class="score">得分：xx分</view>
+       <view class="assess">智力水平：正常</view>
+    </view>
+  </view>
+  <view class="history"></view>
+  <view class="history"></view>
+  <view class="history"></view>
+  <view class="history"></view>
+  <view class="history"></view>
+  <view class="history"></view>
+  <view class="history"></view>
+</scroll-view>

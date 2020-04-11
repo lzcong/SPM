@@ -1,2 +1,12 @@
-<!--pages/notice/notice.wxml-->
-<text>答题须知</text>
+<view class="before_container">
+  <view class="title">测前须知</view>
+  <view>11111111111111111</view>
+  <view>22222222222222222</view>
+  <view>33333333333333333</view>
+  <view>44444444444444444</view>
+  <view>55555555555555555</view>
+</view>
+
+<view class="button_container">
+  <button>我知道了</button>
+</view>

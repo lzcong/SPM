@@ -1,1 +1,33 @@
-/* pages/notice/notice.wxss */
+.before_container{
+  margin: 0 auto;
+  margin-top: 15vh;
+
+  width: 512rpx;
+  height: 512rpx;
+  /* background-color: pink; */
+  border: solid 1px #666;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px #ddd;
+}
+
+.before_container .title{
+  font-size: 16px;
+  margin: 15rpx 0;
+  text-align: center;
+}
+
+.before_container>view:not(:first-child){
+  text-indent: 2em;
+  font-size: 12px;
+}
+
+.button_container{
+  margin: 84rpx;
+}
+
+.button_container button{
+  background-color: #027AFF;
+  font-size: 24rpx;
+  color:white;
+  margin: 40rpx;
+}

@@ -1,3 +1,8 @@
+page{
+  background-image: linear-gradient(109.6deg, rgb(223, 234, 247) 11.2%, rgb(244, 248, 252) 91.1%);
+}
+
+
 .index_user{
   display: flex;
   flex-direction: column;
@@ -5,22 +10,20 @@
   align-items: center;
   width: 750rpx;
   height: 40vh;
-  background-color: greenyellow;
 }
 
 .index_user view open-data{
   display: block;
   overflow: hidden;
-  width: 200rpx;
-  height: 200rpx;
+  width: 160rpx;
+  height: 160rpx;
   border-radius: 50%;
-  margin-bottom:15rpx;
-  box-shadow: 0 0 8rpx 8rpx #ccc;
+  margin-bottom:25rpx;
+  box-shadow: 0 0 5rpx 5rpx #ccc;
 }
 
 .index_button{
   height: 35vh;
-  background-color: red;
   margin-top: 50rpx;
   display: flex;
   flex-direction: column;
@@ -32,5 +35,5 @@
   background-color: #027AFF;
   font-size: 24rpx;
   color:white;
-  margin: 25rpx 25rpx;
+  margin: 40rpx;
 }
