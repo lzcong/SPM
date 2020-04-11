@@ -8,7 +8,9 @@
   background-color: greenyellow;
 }
 
-.index_user image{
+.index_user view open-data{
+  display: block;
+  overflow: hidden;
   width: 200rpx;
   height: 200rpx;
   border-radius: 50%;
