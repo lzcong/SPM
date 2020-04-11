@@ -1,0 +1,34 @@
+.index_user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750rpx;
+  height: 40vh;
+  background-color: greenyellow;
+}
+
+.index_user image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-bottom:15rpx;
+}
+
+.index_button{
+  height: 35vh;
+  background-color: red;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index_button button{
+  background-color: #027AFF;
+  font-size: 24rpx;
+  color:white;
+  margin: 25rpx 25rpx;
+}
+

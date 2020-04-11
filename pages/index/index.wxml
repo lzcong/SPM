@@ -1,4 +1,9 @@
-<view>
-<button>开始测试</button>
-<button>历史记录</button>
+<view class="index_user">
+  <image src="../../images/user.jpg"></image>
+  <view>name</view>
+</view>
+
+<view class="index_button">
+  <button>开始测试</button>
+  <button>历史记录</button>
 </view>

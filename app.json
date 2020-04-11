@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/history/history",
     "pages/notice/notice",
@@ -8,11 +8,12 @@
     "pages/result/result",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#027AFF",
     "navigationBarTitleText": "瑞文标准智力测试",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "white"
   },
-  "style": "v2"
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
