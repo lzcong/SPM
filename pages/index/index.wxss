@@ -13,6 +13,7 @@
   height: 200rpx;
   border-radius: 50%;
   margin-bottom:15rpx;
+  box-shadow: 0 0 8rpx 8rpx #ccc;
 }
 
 .index_button{
@@ -31,4 +32,3 @@
   color:white;
   margin: 25rpx 25rpx;
 }
-

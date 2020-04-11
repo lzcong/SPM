@@ -9,6 +9,26 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  //跳转到注意页面
+  toNotice:function(){
+    wx.navigateTo({
+      url: '../notice/notice',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  //跳转到历史记录页面
+  toHistory:function(){
+    wx.navigateTo({
+      url: '../history/history',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

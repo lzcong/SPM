@@ -4,6 +4,6 @@
 </view>
 
 <view class="index_button">
-  <button>开始测试</button>
-  <button>历史记录</button>
+  <button bindtap="toNotice">开始测试</button>
+  <button bindtap="toHistory">历史记录</button>
 </view>
